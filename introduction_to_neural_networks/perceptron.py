@@ -20,7 +20,7 @@ y^{hat} = step(w_{1}x_{1} + w_{2}x_{2} + b)
 """
 import numpy as np
 
-# Setting the random seed, feel free to change it and see different solutions.
+# Setting the random seed, feel free to change it and see different solutions.l
 np.random.seed(42)
 
 
