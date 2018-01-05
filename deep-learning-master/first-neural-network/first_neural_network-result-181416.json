@@ -1,68 +1,68 @@
 {
     "tests": [
         {
-            "rubric_item_id": 7965,
             "traceback": "AssertionError: False is not true\n",
+            "rubric_item_id": 5582,
+            "description": "The learning_rate is reasonable",
+            "result": "F"
+        },
+        {
+            "traceback": "AssertionError: False is not true\n",
+            "rubric_item_id": 7965,
             "description": "Produces good results when running the network on full data",
             "result": "F"
         },
         {
-            "rubric_item_id": 5574,
             "traceback": "",
+            "rubric_item_id": 5574,
             "description": "The activation function is a sigmoid",
             "result": "."
         },
         {
-            "rubric_item_id": 5578,
             "traceback": "",
+            "rubric_item_id": 5578,
             "description": "The backpropagation implementation is correct",
             "result": "."
         },
         {
-            "rubric_item_id": 5575,
             "traceback": "",
+            "rubric_item_id": 5575,
             "description": "The number of epochs is reasonable",
             "result": "."
         },
         {
-            "rubric_item_id": 5572,
             "traceback": "",
+            "rubric_item_id": 5572,
             "description": "The forward pass implementation is correct",
             "result": "."
         },
         {
-            "rubric_item_id": 5581,
             "traceback": "",
+            "rubric_item_id": 5581,
             "description": "The number of hidden nodes is reasonable",
             "result": "."
         },
         {
-            "rubric_item_id": 5582,
             "traceback": "",
-            "description": "The learning_rate is reasonable",
-            "result": "."
-        },
-        {
             "rubric_item_id": 7964,
-            "traceback": "",
             "description": "The number of output nodes is correct",
             "result": "."
         },
         {
-            "rubric_item_id": 5573,
             "traceback": "",
+            "rubric_item_id": 5573,
             "description": "The run method is correct",
             "result": "."
         },
         {
-            "rubric_item_id": 5570,
             "traceback": "",
+            "rubric_item_id": 5570,
             "description": "The weights are updated correctly on training",
             "result": "."
         },
         {
-            "rubric_item_id": 5580,
             "traceback": "",
+            "rubric_item_id": 5580,
             "description": "The update_weights implementation is correct",
             "result": "."
         }
@@ -73,8 +73,8 @@
             "rubric_items": {
                 "5582": {
                     "autograded": false,
-                    "result": "passed",
-                    "observation": "Correct!"
+                    "result": "failed",
+                    "observation": "```\nNot all of the tests passed.\n\n\n************************************************************************\n                         Test Failure Feedback                          \n************************************************************************\n\nFailed Test: The learning_rate is reasonable\n----------------------------------------------------------------------\nAssertionError: False is not true\n\n\n************************************************************************\n                          Test Result Summary                           \n************************************************************************\n\nThe learning_rate is reasonable                                        F\n\n\n```"
                 },
                 "5580": {
                     "autograded": false,
