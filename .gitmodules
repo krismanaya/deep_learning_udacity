@@ -1,3 +1,6 @@
 [submodule "biaxial-rnn-music-composition"]
 	path = biaxial-rnn-music-composition
 	url = https://github.com/hexahedria/biaxial-rnn-music-composition.git
+[submodule "aind2-cnn"]
+	path = aind2-cnn
+	url = https://github.com/udacity/aind2-cnn.git
