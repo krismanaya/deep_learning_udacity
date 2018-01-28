@@ -4,3 +4,6 @@
 [submodule "aind2-cnn"]
 	path = aind2-cnn
 	url = https://github.com/udacity/aind2-cnn.git
+[submodule "dog-project"]
+	path = dog-project
+	url = https://github.com/udacity/dog-project.git
